@@ -55,14 +55,9 @@ h1 {
   line-height: 1.6;
   margin-bottom: 20px;
 }
-
+/* add styles here */
 .navigateButton {
-  background-color: #383b48;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+
 }
 
 .navigateButton:hover {

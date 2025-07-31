@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: #f1f1f1;
+  /* Add background color here */
 }
 
 .moreInfoContainer {
@@ -128,9 +128,11 @@ body {
 }
 
 .breedDetails span {
+  /* Add styles here
+  
   font-weight: bold;
   color: #133c55;
-  margin-left: 4px;
+  margin-left: 4px; */
 }
 
 .navButton {

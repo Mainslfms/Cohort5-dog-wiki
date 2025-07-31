@@ -79,7 +79,7 @@ function Explore() {
           </Box>
         )}
         <div className="subHeader">
-          <h1>Man’s best friend</h1>
+          <h1>Wazzup</h1>
           <Stack spacing={2} sx={{ width: 300 }}>
             <Autocomplete
               freeSolo
