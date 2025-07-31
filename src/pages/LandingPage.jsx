@@ -29,7 +29,7 @@ function LandingPage() {
           </p>
           <h3>Become a Dog Expert</h3>
           <p>
-            Expand your knowledge about dogs and impress your friends with fun
+            Expand your ledgeknow about dogs and impress your friends with fun
             facts.
           </p>
           <button className="navigateButton" onClick={handleClick}>
@@ -41,7 +41,7 @@ function LandingPage() {
       <footer className="footer">
         <p>
           <FontAwesomeIcon icon={faPaw} size="xs" style={{ color: "black" }} />{" "}
-          2024 Woof Wiki. All rights reserved.
+          2024 Paw Wiki. All rights reserved.
         </p>
       </footer>
     </div>

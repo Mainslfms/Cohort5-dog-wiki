@@ -89,12 +89,12 @@ function Explore() {
               renderInput={(params) => (
                 <TextField
                   {...params}
-                  label="Search for dog breed"
+                  label="Soek vir honde ras"
                   InputProps={{
                     ...params.InputProps,
                     startAdornment: (
                       <InputAdornment position="start">
-                        <SearchIcon />
+                        {/* <SearchIcon /> */}
                       </InputAdornment>
                     ),
                   }}

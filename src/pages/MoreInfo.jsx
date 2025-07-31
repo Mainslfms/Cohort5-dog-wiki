@@ -183,7 +183,7 @@ const MoreInfo = () => {
                 <span>{breed.temperament || "Unknown"}</span>
               </li>
               <li>
-                <FontAwesomeIcon icon={faHistory} className="icon" />
+                {/* <FontAwesomeIcon icon={faHistory} className="icon" /> */}
                 History:
                 <span>{breed.history || "Unknown"}</span>
               </li>
@@ -196,7 +196,7 @@ const MoreInfo = () => {
           </div>
           <Tooltip title="Next dog breed">
             <div onClick={handleNextBreed} className="navButton rightArrow">
-              <FontAwesomeIcon icon={faArrowRight} size="2x" />
+              {/* <FontAwesomeIcon icon={faArrowRight} size="2x" /> */}
             </div>
           </Tooltip>
         </div>
