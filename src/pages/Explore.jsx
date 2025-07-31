@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { fetchBreeds, fetchImagesByBreed } from "./FetchingData";
 import { Link } from "react-router-dom";
 import Header from "../components/sharedHeader";
 import "../pages/Explore.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaw, faUpload } from "@fortawesome/free-solid-svg-icons";
+import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import Autocomplete from "@mui/material/Autocomplete";
@@ -85,7 +85,7 @@ function Explore() {
               freeSolo
               options={breeds.map((breed) => breed.name)}
               value={searchQuery}
-              onInputChange={handleSearchChange}
+              onInputChange={(e) => setSearchQuery(e.target.value)}
               renderInput={(params) => (
                 <TextField
                   {...params}

@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #dad3cb;
+  /* background-color: #dad3cb; */
   overflow-x: hidden;
   overflow-y: scroll;
   height: 100%;
@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background-color: #dad3cb;
+  /* background-color: #dad3cb; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,12 +49,12 @@ body {
 }
 
 .subHeader h1 {
-  color: #735751;
+  /* color: #735751; */
 }
 
 .dogList {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: repeat(4, 1fr); */
   gap: 20px;
   width: 100%;
   box-sizing: border-box;
