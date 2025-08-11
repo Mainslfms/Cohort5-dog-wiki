@@ -118,6 +118,17 @@ const MoreInfo = () => {
               <FontAwesomeIcon icon={faArrowLeft} size="2x" />
             </div>
           </Tooltip>
+
+          <button
+            className="navigateButton"
+            onClick={() =>
+              alert(
+                "Did you know? Dogs have about 1,700 taste buds, compared to humans' 9,000. But they make up for it with a powerful sense of smell! 🐾"
+              )
+            }
+            style={{ color: "#735751" }}
+          ></button>
+
           <div className="bigImage">
             <Tooltip title="Previous Image">
               <div
@@ -143,9 +154,10 @@ const MoreInfo = () => {
               </div>
             </div>
             <Tooltip title="Next Image">
-              <div onClick={handleNextBreedImage} className="carouselButton">
+              <FontAwesomeIcon icon={faAngleRight} size="2x" />
+              {/* <div onClick={handleNextBreedImage} className="carouselButton">
                 <FontAwesomeIcon icon={faAngleRight} size="2x" />
-              </div>
+              </div> */}
             </Tooltip>
           </div>
           <div className="breedDetails">
@@ -153,7 +165,8 @@ const MoreInfo = () => {
             <ul>
               <li>
                 <FontAwesomeIcon icon={faRulerVertical} className="icon" />
-                Height:
+                {/* Height: */}
+                Weight:
                 <span>imperial "{breed.height.imperial}"</span> and
                 <span>metric "{breed.height.metric}"</span>
               </li>
@@ -190,7 +203,8 @@ const MoreInfo = () => {
               <li>
                 <FontAwesomeIcon icon={faGlobe} className="icon" />
                 Origin:
-                <span>{breed.origin || "Unknown"}</span>
+                <span>{breed.life_span || "Unknown"}</span>
+                {/* <span>{breed.origin || "Unknown"}</span> */}
               </li>
             </ul>
           </div>
