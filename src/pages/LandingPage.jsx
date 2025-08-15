@@ -32,6 +32,7 @@ function LandingPage() {
           ...body...
           </p>
         {/* Add button here */}
+        <Button variant="contained" onClick={handleClick}>Start Learning</Button>
         </div>
       </div>
 
