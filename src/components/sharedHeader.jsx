@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="../pages/LandingPage.jsx" className="headerLink">
-        <FontAwesomeIcon icon={faPaw} size="2x" style={{ color: "#735751" }} />
+        {/* <FontAwesomeIcon icon={faPaw} size="2x" style={{ color: "#735751" }} /> */}
         <h1 className="headerText">Woof Wiki</h1>
       </Link>
     </header>
