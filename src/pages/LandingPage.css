@@ -39,19 +39,18 @@ h1 {
 
 .content h2 {
   font-size: 28px;
-  color: #555;
   margin-bottom: 15px;
 }
 
 .content h3 {
   font-size: 22px;
-  color: #666;
+  /* color: #666; */
   margin-bottom: 10px;
 }
 
 .content p {
   font-size: 16px;
-  color: #777;
+  /* add color */
   line-height: 1.6;
   margin-bottom: 20px;
 }
