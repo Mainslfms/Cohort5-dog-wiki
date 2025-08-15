@@ -31,8 +31,7 @@ function LandingPage() {
           <p>
           ...body...
           </p>
-        {/* Fix button styles here */}
-          <Button style={{backgroundColor: "#000000"}} className="navigateButton" variant="contained" onClick={handleClick}> Start Learning!</Button>
+        {/* Add button here */}
         </div>
       </div>
 
